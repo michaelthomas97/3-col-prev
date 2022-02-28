@@ -1,0 +1,64 @@
+@mixin flex_row_cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flex_col_cent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin heading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@mixin para{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+@mixin icon_cont{
+    margin: 20px 20px;
+}
+
+@mixin icons{
+    height: 60px;
+    margin: 50px 0px 0px 60px;
+}
+
+@mixin marg_cont{
+    margin: 50px 0px 0px 80px; 
+}
+
+@mixin marg_anchor{
+    margin: 70px 0px 0px 80px; 
+}
+
+@mixin anchor_style{
+    text-decoration: none;
+    border-radius: 60px;
+    padding: 20px 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+@mixin car_cont_size{
+    height: 60vh;
+    width: 45vh;
+}
+
+@mixin anchor_hover{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}

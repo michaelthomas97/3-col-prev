@@ -1,0 +1,7 @@
+@mixin large-tab{
+    @media (max-width: 1400px){
+
+        @content
+
+    }
+};

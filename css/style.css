@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.col_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 1400px) {
+  .col_cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 0;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    margin: 50px 0px;
+  }
+}
+
+.col_cont .sedan_cont {
+  background-color: #e38826;
+  border-radius: 30px 0px 0px 30px;
+  height: 60vh;
+  width: 45vh;
+}
+
+@media (max-width: 1400px) {
+  .col_cont .sedan_cont {
+    border-radius: 30px 30px 0px 0px;
+  }
+}
+
+.col_cont .sedan_cont .icon_cont {
+  margin: 20px 20px;
+}
+
+.col_cont .sedan_cont .icon_cont img {
+  height: 60px;
+  margin: 50px 0px 0px 60px;
+}
+
+.col_cont .sedan_cont .text_cont {
+  margin: 50px 0px 0px 80px;
+}
+
+.col_cont .sedan_cont .text_cont h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .sedan_cont .text_cont p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .sedan_cont .button_cont {
+  margin: 70px 0px 0px 80px;
+}
+
+.col_cont .sedan_cont .button_cont a {
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 20px 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #e38826;
+  background: white;
+}
+
+.col_cont .sedan_cont .button_cont a:hover {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.col_cont .suv_cont {
+  background-color: #006970;
+  height: 60vh;
+  width: 45vh;
+}
+
+.col_cont .suv_cont .icon_cont {
+  margin: 20px 20px;
+}
+
+.col_cont .suv_cont .icon_cont img {
+  height: 60px;
+  margin: 50px 0px 0px 60px;
+}
+
+.col_cont .suv_cont .text_cont {
+  margin: 50px 0px 0px 80px;
+}
+
+.col_cont .suv_cont .text_cont h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .suv_cont .text_cont p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .suv_cont .button_cont {
+  margin: 70px 0px 0px 80px;
+}
+
+.col_cont .suv_cont .button_cont a {
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 20px 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #006970;
+  background: white;
+}
+
+.col_cont .suv_cont .button_cont a:hover {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+.col_cont .luxury_cont {
+  background-color: #004241;
+  height: 60vh;
+  width: 45vh;
+  border-radius: 0px 30px 30px 0px;
+}
+
+@media (max-width: 1400px) {
+  .col_cont .luxury_cont {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+
+.col_cont .luxury_cont .icon_cont {
+  margin: 20px 20px;
+}
+
+.col_cont .luxury_cont .icon_cont img {
+  height: 60px;
+  margin: 50px 0px 0px 60px;
+}
+
+.col_cont .luxury_cont .text_cont {
+  margin: 50px 0px 0px 80px;
+}
+
+.col_cont .luxury_cont .text_cont h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .luxury_cont .text_cont p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.col_cont .luxury_cont .button_cont {
+  margin: 70px 0px 0px 80px;
+}
+
+.col_cont .luxury_cont .button_cont a {
+  text-decoration: none;
+  border-radius: 60px;
+  padding: 20px 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #004241;
+  background: white;
+}
+
+.col_cont .luxury_cont .button_cont a:hover {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,177 @@
+.col_cont{
+
+    @include flex_row_cent;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    @include large-tab{
+    
+        flex-direction: column;
+        position: relative;  
+        top: 0;    
+        -ms-transform: translateY(0%);
+        transform: translateY(0%); 
+        margin: 50px 0px; 
+    }
+
+    .sedan_cont{
+
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 30px 0px 0px 30px;
+
+        @include large-tab{
+            border-radius: 30px 30px 0px 0px;
+        }
+
+        @include car_cont_size;
+        .icon_cont{
+
+            @include icon_cont;
+
+            img{
+                @include icons;
+            }
+        }
+
+        .text_cont{
+
+            @include marg_cont;
+            
+            h1{
+                @include heading;
+                color: white
+            }
+
+            p{
+                @include para;
+                color: white
+            }
+
+        }
+
+        .button_cont{
+
+            @include marg_anchor;
+            
+            a{
+
+                @include anchor_style;
+                color:  hsl(31, 77%, 52%);
+                background: white;
+            }
+
+            a:hover{
+             @include anchor_hover;
+            }
+        }
+
+    }
+
+
+    .suv_cont{
+
+        background-color: hsl(184, 100%, 22%);
+        @include car_cont_size;
+
+        .icon_cont{
+
+            @include icon_cont;
+
+            img{
+
+                @include icons;
+
+            }
+        }
+
+        .text_cont{
+
+            @include marg_cont;
+
+            h1{
+                @include heading;
+                color: white
+            }
+
+            p{
+                @include para;
+                color: white
+            }
+        }
+
+        .button_cont{
+
+            @include marg_anchor;
+
+            a{
+
+                @include anchor_style;
+                color:  hsl(184, 100%, 22%);
+                background: white;
+            }
+
+            a:hover{
+                @include anchor_hover;
+               }
+        }
+
+    }
+
+    .luxury_cont{
+
+        background-color: hsl(179, 100%, 13%);
+        @include car_cont_size;
+        border-radius: 0px 30px 30px 0px;
+
+        @include large-tab{
+            border-radius: 0px 0px 30px 30px;
+        }
+
+        .icon_cont{
+
+            @include icon_cont;
+
+            img{
+
+                @include icons;
+
+            }
+        }
+
+        .text_cont{
+
+            @include marg_cont;
+
+            h1{
+                @include heading;
+                color: white
+            }
+
+            p{
+                @include para;
+                color: white
+            }
+        }
+
+        .button_cont{
+
+        @include marg_anchor;
+    
+        a{
+            @include anchor_style;
+            color:  hsl(179, 100%, 13%);
+            background: white;
+            }
+
+            a:hover{
+                @include anchor_hover;
+               }
+        }
+
+    }
+
+}
